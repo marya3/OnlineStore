@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace OnLineStore.Models
+namespace RetailStore.Models
 {
     public class Product
     {
@@ -12,5 +12,6 @@ namespace OnLineStore.Models
         public String Name { get; set; }
         public decimal Price { get; set; }
         public int Stock { get; set; }
+
     }
 }

@@ -5,15 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using OnLineStore.Models;
+using OnlineStore.Data;
+using RetailStore.Models;
 
-namespace OnLineStore.Controllers
+namespace OnlineStore.Controllers
 {
     public class ProductsController : Controller
     {
-        private readonly OnLineStoreContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public ProductsController(OnLineStoreContext context)
+        public ProductsController(ApplicationDbContext context)
         {
             _context = context;
         }
