@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using OnLineStore.Models;
+using OnlineStore.Models;
 
-namespace OnLineStore.Controllers
+namespace OnlineStore.Controllers
 {
     public class HomeController : Controller
     {
